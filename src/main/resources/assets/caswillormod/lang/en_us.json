@@ -1,3 +1,13 @@
 {
-	"item.caswillormod.tungsten_ingot": "Tungsten Ingot"
+	"block.caswillormod.hobbitium_ore": "Hobbitium Ore",
+	"block.caswillormod.wolfram_ore": "Wolfram Ore",
+
+	"item.caswillormod.hobbitium_ingot": "Hobbitium Ingot",
+	"item.caswillormod.tungsten_ingot": "Tungsten Ingot",
+	
+	"item.caswillormod.hobbitium_pulaski": "Hobbitium Pulaski",
+	
+	"itemGroup.tabBlocks": "CasWillor Blocks",
+	"itemGroup.tabMaterials": "CasWillor Materials",
+	"itemGroup.tabTools": "CasWillor Tools"
 }
