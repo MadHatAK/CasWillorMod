@@ -5,6 +5,7 @@ import java.util.function.Supplier;
 import com.caswillor.caswillormod.CasWillorMod;
 import com.caswillor.caswillormod.objects.items.HobbitiumPulaski;
 
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.Item;
 import net.minecraft.item.crafting.Ingredient;
@@ -19,6 +20,8 @@ import net.minecraftforge.registries.ObjectHolder;
 @ObjectHolder(CasWillorMod.MOD_ID)
 public class ItemInit
 {
+	//Crops
+	public static final Item cotton_seed = null;
 	//Ingots
 	public static final Item hobbitium_ingot = null;
 	public static final Item tungsten_ingot = null;
@@ -29,6 +32,9 @@ public class ItemInit
 	@SubscribeEvent
 	public static void registerItems(final RegistryEvent.Register<Item> event)
 	{
+		//Crops
+		event.getRegistry().register(new BlockItem(BlockInit.cotton_crop, new Item.Properties().group(CasWillorItemGroups.tabMaterials)).setRegistryName(BlockInit.cotton_crop.getRegistryName()));
+		
 		//Ingots
 		event.getRegistry().register(new Item(new Item.Properties().group(CasWillorItemGroups.tabMaterials)).setRegistryName("hobbitium_ingot"));
 		event.getRegistry().register(new Item(new Item.Properties().group(CasWillorItemGroups.tabMaterials)).setRegistryName("tungsten_ingot"));

@@ -1,0 +1,7 @@
+{
+	"parent": "block/crop",
+	"textures":
+	{
+		"crop": "caswillormod:blocks/cotton_stage0"
+	}
+}

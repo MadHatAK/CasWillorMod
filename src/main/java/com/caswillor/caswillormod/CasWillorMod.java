@@ -1,5 +1,7 @@
 package com.caswillor.caswillormod;
 
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -10,6 +12,8 @@ import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import com.caswillor.caswillormod.init.BlockInit;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod("caswillormod")
@@ -39,7 +43,7 @@ public class CasWillorMod
 
     private void doClientStuff(final FMLClientSetupEvent event)
     {
- 
+    	RenderTypeLookup.setRenderLayer(BlockInit.cotton_crop, RenderType.func_228643_e_());
     }
 
     

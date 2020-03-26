@@ -1,6 +1,7 @@
 package com.caswillor.caswillormod.init;
 
 import com.caswillor.caswillormod.CasWillorMod;
+import com.caswillor.caswillormod.objects.blocks.CottonCropBlock;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -17,6 +18,9 @@ import net.minecraftforge.registries.ObjectHolder;
 @Mod.EventBusSubscriber(modid = CasWillorMod.MOD_ID, bus = Bus.MOD)
 public class BlockInit
 {
+	//Crops
+	public static final Block cotton_crop = null;
+	//Ores
 	public static final Block wolfram_ore = null;
 	public static final Block hobbitium_ore = null;
 	
@@ -27,6 +31,8 @@ public class BlockInit
 				.sound(SoundType.STONE)).setRegistryName("hobbitium_ore"));
 		event.getRegistry().register(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.0F, 5.0F)
 				.sound(SoundType.STONE)).setRegistryName("wolfram_ore"));
+		event.getRegistry().register(new CottonCropBlock(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.0F).doesNotBlockMovement()
+				.tickRandomly().sound(SoundType.PLANT)).setRegistryName("cotton_crop"));
 	}
 	
 	@SubscribeEvent
