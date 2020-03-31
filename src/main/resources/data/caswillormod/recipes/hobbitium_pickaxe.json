@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"HHH",
+		" S ",
+		" S "
+	],
+	"key":
+	{
+		"H":
+		{
+			"tag": "caswillormod:ingots/hobbitium"
+		},
+		"S":
+		{
+			"tag": "forge:rods/wooden"
+		}
+	},
+	"result":
+	{
+		"item": "caswillormod:hobbitium_pickaxe"
+	}
+	
+}

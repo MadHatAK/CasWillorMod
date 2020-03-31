@@ -7,12 +7,13 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 
 public class CasWillorItemGroups extends ItemGroup
 {
+	
     public static final CasWillorItemGroups tabMaterials = new CasWillorItemGroups(ItemGroup.GROUPS.length, "tabMaterials")
     {
         @OnlyIn(Dist.CLIENT)
         public ItemStack createIcon()
         {
-            return new ItemStack(ItemInit.tungsten_ingot);
+            return new ItemStack(ItemInit.tungsten_ingot.get());
         }
     };
     public static final CasWillorItemGroups tabBlocks = new CasWillorItemGroups(ItemGroup.GROUPS.length, "tabBlocks")
@@ -20,7 +21,7 @@ public class CasWillorItemGroups extends ItemGroup
         @OnlyIn(Dist.CLIENT)
         public ItemStack createIcon()
         {
-            return new ItemStack(BlockInit.wolfram_ore);
+            return new ItemStack(BlockInit.wolfram_ore.get());
         }
     };
     public static final CasWillorItemGroups tabTools = new CasWillorItemGroups(ItemGroup.GROUPS.length, "tabTools")
@@ -28,7 +29,7 @@ public class CasWillorItemGroups extends ItemGroup
         @OnlyIn(Dist.CLIENT)
         public ItemStack createIcon()
         {
-            return new ItemStack(ItemInit.hobbitium_pulaski);
+            return new ItemStack(ToolInit.hobbitium_pulaski.get());
         }
     };
     

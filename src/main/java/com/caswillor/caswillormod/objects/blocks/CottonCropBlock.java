@@ -27,7 +27,7 @@ public class CottonCropBlock extends CropsBlock
 	
 	protected IItemProvider getSeedItem()
 	{
-		return ItemInit.cotton_seed;
+		return ItemInit.cotton_seed.get();
 	}
 	
 	@Override

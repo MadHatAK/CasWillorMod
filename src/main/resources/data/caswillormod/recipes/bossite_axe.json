@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"BB",
+		"BS",
+		" S"
+	],
+	"key":
+	{
+		"B":
+		{
+			"tag": "caswillormod:ingots/bossite"
+		},
+		"S":
+		{
+			"tag": "forge:rods/wooden"
+		}
+	},
+	"result":
+	{
+		"item": "caswillormod:bossite_axe"
+	}
+	
+}

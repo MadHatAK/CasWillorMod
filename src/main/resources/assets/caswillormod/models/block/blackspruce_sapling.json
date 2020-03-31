@@ -1,0 +1,6 @@
+{
+	 "parent": "block/cross",
+    "textures": {
+        "cross": "caswillormod:blocks/blackspruce_sapling"
+    }
+}

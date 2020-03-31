@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":  { "model": "caswillormod:block/blackspruce_log" },
+        "axis=z":   { "model": "caswillormod:block/blackspruce_log", "x": 90 },
+        "axis=x":   { "model": "caswillormod:block/blackspruce_log", "x": 90, "y": 90 }
+    }
+}

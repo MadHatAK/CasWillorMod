@@ -1,12 +1,36 @@
 {
+	"block.caswillormod.bossite_ore": "Bossite",
 	"block.caswillormod.cotton_crop": "Cotton",
 	"block.caswillormod.hobbitium_ore": "Hobbitium Ore",
+	"block.caswillormod.peat_soil": "Peat",
+	"block.caswillormod.shale_ore": "Shale Oil",
 	"block.caswillormod.wolfram_ore": "Wolfram Ore",
+	"block.caswillormod.ironwood_log": "Ironwood Log",
+	"block.caswillormod.ironwood_leaves": "Ironwood Leaves",
+	"block.caswillormod.ironwood_plank": "Ironwood Planks",
+	"block.caswillormod.ironwood_sapling": "Ironwood Sapling",
+	"block.caswillormod.blackspruce_log": "Black Spruce Log",
+	"block.caswillormod.blackspruce_leaves": "Black Spruce Leaves",
+	"block.caswillormod.blackspruce_plank": "Black Spruce Planks",
+	"block.caswillormod.blackspruce_sapling": "Black Spruce Sapling",
 
+	"item.caswillormod.bossite_ingot": "Bossite Ingot",
 	"item.caswillormod.hobbitium_ingot": "Hobbitium Ingot",
 	"item.caswillormod.tungsten_ingot": "Tungsten Ingot",
 	
-	"item.caswillormod.hobbitium_pulaski": "Hobbitium Pulaski",
+	"item.caswillormod.shale_gem": "Shale",
+	
+	"item.caswillormod.bossite_axe": "§eBossite Axe§r",
+	"item.caswillormod.bossite_hoe": "§eBossite Hoe§r",
+	"item.caswillormod.bossite_pickaxe": "§eBossite Pickaxe§r",
+	"item.caswillormod.bossite_shovel": "§eBossite Shovel§r",
+	
+	"item.caswillormod.hobbitium_pulaski": "§dHobbitium Pulaski§r",
+	"item.caswillormod.hobbitium_pickaxe": "§dHobbitium Pickaxe§r",
+	
+	"item.caswillormod.tungsten_axe": "Tungsten Axe",
+	"item.caswillormod.tungsten_pickaxe": "Tungsten Pickaxe",
+	"item.caswillormod.tungsten_shovel": "Tungsten Shovel",
 	
 	"itemGroup.tabBlocks": "CasWillor Blocks",
 	"itemGroup.tabMaterials": "CasWillor Materials",

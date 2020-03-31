@@ -138,7 +138,7 @@ public class HobbitiumPulaski extends ToolItem
 	 @Override
 	 public void addInformation(ItemStack stack, World worldIn, List<ITextComponent> tooltip, ITooltipFlag flagIn)
 	 {
-		 tooltip.add(new StringTextComponent("A Firefighter's best friend!"));
+		 tooltip.add(new StringTextComponent("\u00A77" + "A" + "\u00A74" + " Firefighter's" + "\u00A77" + " best friend!"));
 		 super.addInformation(stack, worldIn, tooltip, flagIn);
 	 }
 }

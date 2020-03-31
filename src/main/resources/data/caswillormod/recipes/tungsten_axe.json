@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"TT",
+		"TS",
+		" S"
+	],
+	"key":
+	{
+		"T":
+		{
+			"tag": "caswillormod:ingots/tungsten"
+		},
+		"S":
+		{
+			"tag": "forge:rods/wooden"
+		}
+	},
+	"result":
+	{
+		"item": "caswillormod:tungsten_axe"
+	}
+	
+}
