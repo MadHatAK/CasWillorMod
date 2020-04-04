@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "caswillormod:blocks/blackspruce_plank",
+        "top": "caswillormod:blocks/blackspruce_plank",
+        "side": "caswillormod:blocks/blackspruce_plank"
+    }
+}

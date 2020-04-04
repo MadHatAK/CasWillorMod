@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"B",
+		"B"
+	],
+	"key":
+	{
+		"B":
+		{
+			"item": "caswillormod:blackspruce_plank"
+		}
+	},
+	"result":
+	{
+		"item": "minecraft:stick",
+		"count": 4
+	}
+	
+}

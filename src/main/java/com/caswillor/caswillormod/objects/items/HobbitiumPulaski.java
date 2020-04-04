@@ -60,6 +60,7 @@ public class HobbitiumPulaski extends ToolItem
 	public HobbitiumPulaski(IItemTier tier, float attackDamageIn, float attackSpeedIn, Item.Properties builder)
 	{
 		super(attackDamageIn, attackSpeedIn, tier, PULASKI, builder.addToolType(ToolType.AXE, 2).addToolType(ToolType.SHOVEL, 2));
+		
 	}
 	
 	public boolean canHarvestBlock(BlockState blockIn)
@@ -67,6 +68,8 @@ public class HobbitiumPulaski extends ToolItem
 	      Block block = blockIn.getBlock();
 	      return block == Blocks.SNOW || block == Blocks.SNOW_BLOCK;
 	}
+	
+	
 	
 	public float getDestroySpeed(ItemStack stack, BlockState state)
 	{

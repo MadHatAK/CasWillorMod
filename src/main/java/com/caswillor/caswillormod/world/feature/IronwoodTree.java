@@ -16,9 +16,11 @@ import net.minecraftforge.common.IPlantable;
 
 public class IronwoodTree extends Tree 
 {
-	public static final TreeFeatureConfig IRONWOOD_TREE_CONFIG = (new TreeFeatureConfig.Builder(new SimpleBlockStateProvider(BlockInit.ironwood_log.get()
-			.getDefaultState()), new SimpleBlockStateProvider(BlockInit.ironwood_leaves.get().getDefaultState()), new BlobFoliagePlacer(2, 0)))
-			.baseHeight(4).heightRandA(3).foliageHeight(3).ignoreVines().decorators(ImmutableList.of(new BeehiveTreeDecorator(0.05F))).setSapling((IPlantable)BlockInit.ironwood_sapling.get()).build();
+	public static final TreeFeatureConfig IRONWOOD_TREE_CONFIG = (new TreeFeatureConfig.Builder(
+			new SimpleBlockStateProvider(BlockInit.ironwood_log.get().getDefaultState()), 
+			new SimpleBlockStateProvider(BlockInit.ironwood_leaves.get().getDefaultState()), 
+			new BlobFoliagePlacer(2, 0))).baseHeight(8).heightRandA(4).foliageHeight(3).ignoreVines()
+			.decorators(ImmutableList.of(new BeehiveTreeDecorator(0.05F))).setSapling((IPlantable)BlockInit.ironwood_sapling.get()).build();
 
 	@Override
 	protected ConfiguredFeature<TreeFeatureConfig, ?> getTreeFeature(Random randomIn, boolean booleanIn)

@@ -1,0 +1,12 @@
+{
+	"variants":
+	{
+		"":
+		[
+			{ "model": "caswillormod:block/peat_dirt" },
+            { "model": "caswillormod:block/peat_dirt", "y": 90 },
+            { "model": "caswillormod:block/peat_dirt", "y": 180 },
+            { "model": "caswillormod:block/peat_dirt", "y": 270 }
+		]
+	}
+}

@@ -21,4 +21,15 @@ public class HobbitiumPickaxe extends PickaxeItem
 		stack.addEnchantment(Enchantments.FORTUNE, 2);
 	}
 
+	/*
+	@Override
+	public boolean hasEffect(ItemStack stack)
+	{
+		if (!stack.isEnchanted())
+		{
+			stack.addEnchantment(Enchantments.UNBREAKING, 3);
+		}
+		return super.hasEffect(stack);
+	}
+	*/
 }

@@ -26,4 +26,5 @@ public class ItemInit
 			.group(CasWillorItemGroups.tabMaterials)));
 	public static final RegistryObject<Item> tungsten_ingot = ITEMS.register("tungsten_ingot", () -> new Item(new Item.Properties()
 			.group(CasWillorItemGroups.tabMaterials)));
+	
 }

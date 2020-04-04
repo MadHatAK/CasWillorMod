@@ -68,6 +68,7 @@ public class CasWillorMod
     	LOGGER.debug("Registered BlockItems!");
     }
     
+    
     private void setup(final FMLCommonSetupEvent event)
     {
     	
@@ -78,6 +79,7 @@ public class CasWillorMod
     	RenderTypeLookup.setRenderLayer(BlockInit.cotton_crop.get(), RenderType.getCutout());
     	RenderTypeLookup.setRenderLayer(BlockInit.ironwood_sapling.get(), RenderType.getCutout());
     	RenderTypeLookup.setRenderLayer(BlockInit.blackspruce_sapling.get(), RenderType.getCutout());
+    	RenderTypeLookup.setRenderLayer(BlockInit.ironwood_door.get(), RenderType.getCutout());
     }
 
     

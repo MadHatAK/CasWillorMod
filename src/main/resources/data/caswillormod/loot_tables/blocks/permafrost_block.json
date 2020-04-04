@@ -8,25 +8,6 @@
           "type": "minecraft:alternatives",
           "children": [
             {
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "enchantments": [
-                      {
-                        "enchantment": "minecraft:silk_touch",
-                        "levels": {
-                          "min": 1
-                        }
-                      }
-                    ]
-                  }
-                }
-              ],
-              "name": "caswillormod:peat_soil"
-            },
-            {
               "type": "minecraft:alternatives",
               "conditions": [
                 {
@@ -48,11 +29,11 @@
                       ]
                     }
                   ],
-                  "name": "minecraft:coal"
+                  "name": "caswillormod:shale_gem"
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "caswillormod:peat_dirt"
+                  "name": "caswillormod:permafrost_block"
                 }
               ]
             }

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"II",
+		"II",
+		"II"
+	],
+	"key":
+	{
+		"I":
+		{
+			"item": "caswillormod:ironwood_plank"
+		}
+	},
+	"result":
+	{
+		"item": "caswillormod:ironwood_door",
+		"count": 3
+	}
+	
+}

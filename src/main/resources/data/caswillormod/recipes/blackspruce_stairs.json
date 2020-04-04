@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"B  ",
+		"BB ",
+		"BBB"
+	],
+	"key":
+	{
+		"B":
+		{
+			"item": "caswillormod:blackspruce_plank"
+		}
+	},
+	"result":
+	{
+		"item": "caswillormod:blackspruce_stairs",
+		"count": 4
+	}
+	
+}

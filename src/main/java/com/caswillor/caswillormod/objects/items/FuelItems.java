@@ -1,7 +1,9 @@
 package com.caswillor.caswillormod.objects.items;
 
 import com.caswillor.caswillormod.init.ItemInit;
+
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 
 public class FuelItems extends Item
 {
@@ -10,12 +12,14 @@ public class FuelItems extends Item
 		super(properties);
 	}
 	
-	public int getBurnTime(Item item)
+	public int getBurnTime(ItemStack stack)
 	{
-		if(item == ItemInit.shale_gem.get())
+		if(stack == new ItemStack(ItemInit.shale_gem.get()))
 		{
 			return 12800;
 		}
-		else { return 0; }
+		
+		else { return -1; }
 	}
+	
 }

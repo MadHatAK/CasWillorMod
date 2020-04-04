@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_bottom",
+    "textures": {
+        "bottom": "caswillormod:blocks/ironwood_door_bottom",
+        "top": "caswillormod:blocks/ironwood_door_top"
+    }
+}

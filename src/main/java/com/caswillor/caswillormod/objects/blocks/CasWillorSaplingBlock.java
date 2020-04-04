@@ -3,8 +3,11 @@ package com.caswillor.caswillormod.objects.blocks;
 import java.util.Random;
 import java.util.function.Supplier;
 
+import com.caswillor.caswillormod.init.BlockInit;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.BushBlock;
 import net.minecraft.block.IGrowable;
 import net.minecraft.block.trees.Tree;
@@ -86,5 +89,13 @@ public class CasWillorSaplingBlock extends BushBlock implements IGrowable
 	protected void fillStateContainer(Builder<Block, BlockState> builder)
 	{
 		builder.add(STAGE);
+	}
+	
+	@Override
+	protected boolean isValidGround(BlockState state, IBlockReader worldIn, BlockPos pos)
+	{
+		Block block = state.getBlock();
+		return block == Blocks.GRASS_BLOCK || block == Blocks.DIRT || block == Blocks.COARSE_DIRT || block == Blocks.PODZOL || block == BlockInit.peat_soil.get();
+		
 	}
 }

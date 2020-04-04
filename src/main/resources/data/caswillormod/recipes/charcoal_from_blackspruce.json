@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient":
+	{
+		"item": "caswillormod:blackspruce_log"
+	},
+	"result": "minecraft:charcoal",
+	"experience": 0.7,
+	"cookingtime": 100
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+  	"#minecraft:wooden_fences",
+  	"minecraft:nether_brick_fence",
+    "caswillormod:ironwood_fence",
+	"caswillormod:blackspruce_fence"
+  ]
+}

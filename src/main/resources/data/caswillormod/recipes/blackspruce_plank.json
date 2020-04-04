@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"B"
+	],
+	"key":
+	{
+		"B":
+		{
+			"item": "caswillormod:blackspruce_log"
+		}
+	},
+	"result":
+	{
+		"item": "caswillormod:blackspruce_plank",
+		"count": 4
+	}
+	
+}
