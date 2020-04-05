@@ -1,5 +1,6 @@
 package com.caswillor.caswillormod.world.gen;
 
+import com.caswillor.caswillormod.init.BiomeInit;
 import com.caswillor.caswillormod.init.BlockInit;
 
 import net.minecraft.world.biome.Biome;
@@ -34,6 +35,14 @@ public class CasWillorOreGen
 					.withPlacement(wolframConfig));
 			
 			if (biome == Biomes.DESERT)
+			{
+				ConfiguredPlacement<CountRangeConfig> shaleConfig = Placement.COUNT_RANGE.configure(new CountRangeConfig(50, 14, 0, 57));
+				biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE
+						.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.shale_ore.get().getDefaultState(), 10))
+						.withPlacement(shaleConfig));
+			}
+			
+			if (biome == BiomeInit.TUNDRA_BIOME.get())
 			{
 				ConfiguredPlacement<CountRangeConfig> shaleConfig = Placement.COUNT_RANGE.configure(new CountRangeConfig(50, 14, 0, 57));
 				biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE

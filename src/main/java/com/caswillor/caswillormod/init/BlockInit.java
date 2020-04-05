@@ -27,8 +27,7 @@ public class BlockInit
 	public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, CasWillorMod.MOD_ID);
 	
 	//Blocks
-	public static final RegistryObject<Block> peat_soil = BLOCKS.register("peat_soil", () -> new GrassBlock(Block.Properties.create(Material.ORGANIC)
-			.tickRandomly().hardnessAndResistance(0.5F).sound(SoundType.PLANT)));
+	public static final RegistryObject<Block> peat_soil = BLOCKS.register("peat_soil", () -> new GrassBlock(Block.Properties.from(Blocks.GRASS_BLOCK)));
 	public static final RegistryObject<Block> peat_dirt = BLOCKS.register("peat_dirt", () -> new Block(Block.Properties.from(Blocks.DIRT)));
 	
 	public static final RegistryObject<Block> permafrost_block = BLOCKS.register("permafrost_block", () -> 

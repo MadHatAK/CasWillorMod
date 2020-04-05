@@ -4,6 +4,7 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.world.biome.Biome;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,6 +22,7 @@ import net.minecraftforge.registries.IForgeRegistry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.caswillor.caswillormod.init.BiomeInit;
 import com.caswillor.caswillormod.init.BlockInit;
 import com.caswillor.caswillormod.init.CasWillorItemGroups;
 import com.caswillor.caswillormod.init.ItemInit;
@@ -47,6 +49,7 @@ public class CasWillorMod
         ItemInit.ITEMS.register(modEventBus);
         ToolInit.TOOLS.register(modEventBus);
         BlockInit.BLOCKS.register(modEventBus);
+        BiomeInit.BIOMES.register(modEventBus);
         
         instance = this;
         // Register ourselves for server and other game events we are interested in
@@ -66,6 +69,12 @@ public class CasWillorMod
     	});
     	
     	LOGGER.debug("Registered BlockItems!");
+    }
+    
+    @SubscribeEvent
+    public static void onRegisterBiomes(final RegistryEvent.Register<Biome> event)
+    {
+    	BiomeInit.registerBiomes();
     }
     
     
