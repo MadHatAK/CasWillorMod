@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		" C ",
+		"CLC",
+		" C "
+	],
+	"key":
+	{
+		"C":
+		{
+			"item": "minecraft:coal_block"
+		},
+		"L":
+		{
+			"item": "minecraft:lava_bucket"
+		}
+	},
+	"result":
+	{
+		"item": "caswillormod:dark_magma"
+	}
+	
+}

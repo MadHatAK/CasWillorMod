@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"ISC",
+		"HMC",
+		"ISC"
+	],
+	"key":
+	{
+		"C":
+		{
+			"item": "minecraft:string"
+		},
+		"H":
+		{
+			"item": "caswillormod:tungsten_haft"
+		},
+		"I":
+		{
+			"item": "caswillormod:infinity_diamond"
+		},
+		"M":
+		{
+			"item": "caswillormod:dark_magma"
+		},
+		"S":
+		{
+			"tag": "forge:rods/wooden"
+		}
+	},
+	"result":
+	{
+		"item": "caswillormod:valkyrie_bow"
+	}
+}

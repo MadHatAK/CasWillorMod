@@ -33,6 +33,15 @@ public class CasWillorItemGroups extends ItemGroup
         }
     };
     
+    public static final CasWillorItemGroups tabCombat = new CasWillorItemGroups(ItemGroup.GROUPS.length, "tabCombat")
+    {
+        @OnlyIn(Dist.CLIENT)
+        public ItemStack createIcon()
+        {
+            return new ItemStack(WeaponInit.mithril_sword.get());
+        }
+    };
+    
     private ItemStack item;
     
     private CasWillorItemGroups(int index, String label)

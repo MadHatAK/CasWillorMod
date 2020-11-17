@@ -25,6 +25,10 @@ public class GemOres extends OreBlock
 		{
 			return MathHelper.nextInt(random, 0, 2);
 		}
+		if (this == BlockInit.lavastone_ore.get())
+		{
+			return MathHelper.nextInt(random, 0, 2);
+		}
 		else
 		{
 			return 0;

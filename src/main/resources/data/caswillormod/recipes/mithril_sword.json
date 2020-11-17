@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"M",
+		"M",
+		"S"
+	],
+	"key":
+	{
+		"M":
+		{
+			"tag": "caswillormod:ingots/mithril"
+		},
+		"S":
+		{
+			"tag": "forge:rods/wooden"
+		}
+	},
+	"result":
+	{
+		"item": "caswillormod:mithril_sword"
+	}
+	
+}

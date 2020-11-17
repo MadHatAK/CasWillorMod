@@ -1,15 +1,20 @@
 {
-	"biome.caswillormod.tundra_biome": "Tundra Biome",
+	"biome.caswillormod.subarctic_tundra": "Subarctic Tundra",
 
 	"block.caswillormod.bossite_ore": "Bossite",
 	"block.caswillormod.cotton_crop": "Cotton",
+	"block.caswillormod.forget_menot": "Forget Me Not",
 	"block.caswillormod.hobbitium_ore": "Hobbitium Ore",
 	"block.caswillormod.peat_soil": "Peat Soil",
 	"block.caswillormod.peat_dirt": "Peat",
 	"block.caswillormod.permafrost_block": "Permafrost",
 	"block.caswillormod.shale_ore": "Shale Oil",
 	"block.caswillormod.wolfram_ore": "Wolfram Ore",
+	"block.caswillormod.mithril_ore": "Mithril Ore",
+	"block.caswillormod.black_sand": "Black Sand",
+	"block.caswillormod.lavastone_ore": "Lava Stone Ore",
 	"block.caswillormod.ironwood_log": "Ironwood Log",
+	"block.caswillormod.stripped_ironwood_log": "Stripped Ironwood Log",
 	"block.caswillormod.ironwood_leaves": "Ironwood Leaves",
 	"block.caswillormod.ironwood_plank": "Ironwood Planks",
 	"block.caswillormod.ironwood_sapling": "Ironwood Sapling",
@@ -22,12 +27,20 @@
 	"block.caswillormod.ironwood_fence": "Ironwood Fence Post",
 	"block.caswillormod.ironwood_door": "Ironwood Door",
 	"block.caswillormod.blackspruce_fence": "Black Spruce Fence Post",
+	"block.caswillormod.blackspruce_door": "Black Spruce Door",
 
 	"item.caswillormod.bossite_ingot": "Bossite Ingot",
 	"item.caswillormod.hobbitium_ingot": "Hobbitium Ingot",
+	"item.caswillormod.mithril_ingot": "Mithril Ingot",
 	"item.caswillormod.tungsten_ingot": "Tungsten Ingot",
 	
+	"item.caswillormod.dark_magma": "Dark Magma",
+	"item.caswillormod.infinity_diamond": "Infinity Diamond",
+	"item.caswillormod.ironwood_stick": "Ironwood Stick",
+	"item.caswillormod.lava_stone": "Lava Stone",
 	"item.caswillormod.shale_gem": "Shale",
+	"item.caswillormod.tungsten_haft": "Tungsten Haft",
+	"item.caswillormod.tungsten_rod": "Tungsten Rod",
 	
 	"item.caswillormod.bossite_axe": "§eBossite Axe§r",
 	"item.caswillormod.bossite_hoe": "§eBossite Hoe§r",
@@ -37,11 +50,33 @@
 	"item.caswillormod.hobbitium_pulaski": "§dHobbitium Pulaski§r",
 	"item.caswillormod.hobbitium_pickaxe": "§dHobbitium Pickaxe§r",
 	
+	"item.caswillormod.mithril_axe": "Mithril Axe",
+	"item.caswillormod.mithril_pickaxe": "Mithril Pickaxe",
+	"item.caswillormod.mithril_waraxe": "Mithril Waraxe",
+	"item.caswillormod.mithril_sword": "Mithril Sword",
+	
+	"item.caswillormod.lavastone_pickaxe": "Lava Stone Pickaxe",
+	"item.caswillormod.lavastone_shovel": "Lava Stone Shovel",
+	"item.caswillormod.lavastone_sword": "Lava Stone Sword",
+	
+	"item.caswillormod.valkyrie_bow": "Bow of the Valkyrie",
+	
 	"item.caswillormod.tungsten_axe": "Tungsten Axe",
 	"item.caswillormod.tungsten_pickaxe": "Tungsten Pickaxe",
 	"item.caswillormod.tungsten_shovel": "Tungsten Shovel",
 	
+	"item.caswillormod.mithril_helm": "Mithril Helm",
+	"item.caswillormod.mithril_chestplate": "Mithril Chestplate",
+	"item.caswillormod.mithril_leggings": "Mithril Leggings",
+	"item.caswillormod.mithril_boots": "Mithril Boots",
+	
+	"item.caswillormod.tungsten_helm": "Tungsten Helm",
+	"item.caswillormod.tungsten_chestplate": "Tungsten Chestplate",
+	"item.caswillormod.tungsten_leggings": "Tungsten Leggings",
+	"item.caswillormod.tungsten_boots": "Tungsten Boots",
+	
 	"itemGroup.tabBlocks": "CasWillor Blocks",
 	"itemGroup.tabMaterials": "CasWillor Materials",
-	"itemGroup.tabTools": "CasWillor Tools"
+	"itemGroup.tabTools": "CasWillor Tools",
+	"itemGroup.tabCombat": "CasWillor Combat"
 }

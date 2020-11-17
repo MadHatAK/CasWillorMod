@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_top_rh",
+    "textures": {
+        "bottom": "caswillormod:blocks/blackspruce_door_bottom",
+        "top": "caswillormod:blocks/blackspruce_door_top"
+    }
+}

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"TTT",
+		"T T"
+	],
+	"key":
+	{
+		"T":
+		{
+			"tag": "caswillormod:ingots/tungsten"
+		}
+	},
+	"result":
+	{
+		"item": "caswillormod:tungsten_helm"
+	}
+}

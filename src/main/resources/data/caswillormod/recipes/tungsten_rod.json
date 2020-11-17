@@ -1,0 +1,18 @@
+{
+	"type": "minecraft_crafting_shaped",
+	"pattern":
+	[
+		"TT"
+	],
+	"key":
+	{
+		"T":
+		{
+			"item": "caswillormod:tungsten_ingot"
+		}
+	},
+	"result":
+	{
+		"item": "caswillormod:tungsten_rod"
+	}
+}

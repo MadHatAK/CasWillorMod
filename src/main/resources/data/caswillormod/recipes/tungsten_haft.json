@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"R",
+		"D",
+		"R"
+	],
+	"key":
+	{
+		"D":
+		{
+			"item": "minecraft:diamond"
+		},
+		"R":
+		{
+			"item": "caswillormod:tungsten_rod"
+		}
+	},
+	"result":
+	{
+		"item": "caswillormod:tungsten_haft"
+	}
+}

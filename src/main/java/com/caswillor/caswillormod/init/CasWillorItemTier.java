@@ -17,6 +17,12 @@ public enum CasWillorItemTier implements IItemTier
 			}),
 			TUNGSTEN(2, 2500, 6.0F, 2.5F, 24, () -> {
 				return Ingredient.fromItems(ItemInit.tungsten_ingot.get());
+			}),
+			MITHRIL(3, 3250, 7.0F, 3.5F, 35, () -> {
+				return Ingredient.fromItems(ItemInit.mithril_ingot.get());
+			}),
+			LAVASTONE(3, 3250, 7.0F, 4.0F, 35, () -> {
+				return Ingredient.fromItems(ItemInit.lava_stone.get());
 			});
 	
 	private final int harvestLevel;

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"MMM",
+		"M M"
+	],
+	"key":
+	{
+		"M":
+		{
+			"tag": "caswillormod:ingots/mithril"
+		}
+	},
+	"result":
+	{
+		"item": "caswillormod:mithril_helm"
+	}
+}

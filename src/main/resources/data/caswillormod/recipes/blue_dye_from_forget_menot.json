@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "blue_dye",
+	"ingredients":
+	[
+		{
+		"item": "caswillormod:forget_menot"
+		}
+	],
+	"result":
+	{
+		"item": "minecraft:blue_dye"
+	}
+}

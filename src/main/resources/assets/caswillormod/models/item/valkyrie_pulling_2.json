@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "caswillormod:items/valkyrie_pulling_2"
+    }
+}

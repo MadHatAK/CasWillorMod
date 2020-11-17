@@ -8,6 +8,7 @@
     "#minecraft:jungle_logs",
     "#minecraft:spruce_logs",
     "caswillormod:blackspruce_log",
-    "caswillormod:ironwood_log"
+    "caswillormod:ironwood_log",
+    "caswillormod:stripped_ironwood_log"
   ]
 }

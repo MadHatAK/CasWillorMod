@@ -26,7 +26,9 @@ import com.caswillor.caswillormod.init.BiomeInit;
 import com.caswillor.caswillormod.init.BlockInit;
 import com.caswillor.caswillormod.init.CasWillorItemGroups;
 import com.caswillor.caswillormod.init.ItemInit;
+//import com.caswillor.caswillormod.init.ModEntityTypes;
 import com.caswillor.caswillormod.init.ToolInit;
+import com.caswillor.caswillormod.init.WeaponInit;
 import com.caswillor.caswillormod.world.gen.CasWillorOreGen;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -34,7 +36,7 @@ import com.caswillor.caswillormod.world.gen.CasWillorOreGen;
 @Mod.EventBusSubscriber(modid = CasWillorMod.MOD_ID, bus = Bus.MOD)
 public class CasWillorMod
 {
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "caswillormod";
     public static CasWillorMod instance;
 
@@ -48,8 +50,10 @@ public class CasWillorMod
         
         ItemInit.ITEMS.register(modEventBus);
         ToolInit.TOOLS.register(modEventBus);
+        WeaponInit.WEAPONS.register(modEventBus);
         BlockInit.BLOCKS.register(modEventBus);
         BiomeInit.BIOMES.register(modEventBus);
+        //ModEntityTypes.ENTITY_TYPES.register(modEventBus);
         
         instance = this;
         // Register ourselves for server and other game events we are interested in
@@ -75,8 +79,8 @@ public class CasWillorMod
     public static void onRegisterBiomes(final RegistryEvent.Register<Biome> event)
     {
     	BiomeInit.registerBiomes();
+    	
     }
-    
     
     private void setup(final FMLCommonSetupEvent event)
     {
@@ -86,6 +90,7 @@ public class CasWillorMod
     private void doClientStuff(final FMLClientSetupEvent event)
     {
     	RenderTypeLookup.setRenderLayer(BlockInit.cotton_crop.get(), RenderType.getCutout());
+    	RenderTypeLookup.setRenderLayer(BlockInit.forget_menot.get(), RenderType.getCutout());
     	RenderTypeLookup.setRenderLayer(BlockInit.ironwood_sapling.get(), RenderType.getCutout());
     	RenderTypeLookup.setRenderLayer(BlockInit.blackspruce_sapling.get(), RenderType.getCutout());
     	RenderTypeLookup.setRenderLayer(BlockInit.ironwood_door.get(), RenderType.getCutout());

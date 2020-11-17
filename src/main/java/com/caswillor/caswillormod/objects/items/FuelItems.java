@@ -12,14 +12,14 @@ public class FuelItems extends Item
 		super(properties);
 	}
 	
-	public int getBurnTime(ItemStack stack)
+	@Override
+	public int getBurnTime(ItemStack fuelIn)
 	{
-		if(stack == new ItemStack(ItemInit.shale_gem.get()))
+		if (fuelIn != null && fuelIn.getItem().equals(ItemInit.shale_gem.get()))
 		{
 			return 12800;
 		}
 		
-		else { return -1; }
+		else { return 0; }
 	}
-	
 }

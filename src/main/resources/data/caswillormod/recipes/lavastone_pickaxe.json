@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"LLL",
+		" S ",
+		" S "
+	],
+	"key":
+	{
+		"L":
+		{
+			"item": "caswillormod:lava_stone"
+		},
+		"S":
+		{
+			"item": "caswillormod:ironwood_stick"
+		}
+	},
+	"result":
+	{
+		"item": "caswillormod:lavastone_pickaxe"
+	}
+	
+}

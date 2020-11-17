@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"T T",
+		"T T"
+	],
+	"key":
+	{
+		"T":
+		{
+			"tag": "caswillormod:ingots/tungsten"
+		}
+	},
+	"result":
+	{
+		"item": "caswillormod:tungsten_boots"
+	}
+}

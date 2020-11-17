@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"DGS"
+	],
+	"key":
+	{
+		"D":
+		{
+			"item": "minecraft:diamond"
+		},
+		"G":
+		{
+			"item": "minecraft:ghast_tear"
+		},
+		"S":
+		{
+			"item": "minecraft:potion",
+			"functions": [{
+				"function": "minecraft:set_nbt",
+				"tag": "{Potion:\"minecraft:strength\"}"
+				}]
+		}
+	},
+	"result":
+	{
+		"item": "caswillormod:infinity_diamond"
+	}
+	
+}
